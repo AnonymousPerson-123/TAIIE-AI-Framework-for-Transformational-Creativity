@@ -281,7 +281,7 @@ if __name__ == "__main__":
     # Create enhanced dataset
     print("Creating enhanced dataset...")
     enhanced_df = create_enhanced_dataset(num_synthetic=10000, 
-                                         real_topics_csv='preexisting_research_topics.csv')
+                                         real_topics_csv='your_dataset.csv')
     
     # Split into train and validation
     train_df, val_df = train_test_split(enhanced_df, test_size=0.2, random_state=42)
