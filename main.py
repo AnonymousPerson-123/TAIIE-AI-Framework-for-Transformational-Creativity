@@ -808,7 +808,7 @@ class InnovationPipeline:
 # 11. MAIN EXECUTION
 # ======================
 if __name__ == "__main__":
-    pipeline = InnovationPipeline('preexisting_research_topics.csv', num_epochs=100)
+    pipeline = InnovationPipeline('your_dataset.csv', num_epochs=100)
     
     print("===== SUPERVISED TRAINING PHASE =====")
     pipeline.train_model()
